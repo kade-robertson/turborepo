@@ -119,8 +119,8 @@ No concurrency by default
 
 Add env var: `TURBO_CONCURRENCY`
   $ TURBO_CONCURRENCY=5 ${TURBO} config | jq -r .concurrency
-  "5"
+  5
 
 Add flag: `--concurrency`
   $ ${TURBO} --concurrency=5 config | jq -r .concurrency
-  "5"
+  5
